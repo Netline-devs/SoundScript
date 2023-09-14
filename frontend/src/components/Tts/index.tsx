@@ -109,17 +109,7 @@ export default function Tts() {
     <div className={style.tts}>
       <Helmet>
         <title>SS | Text To Speech</title>
-        <meta
-          name="description"
-          content="A Free Text to speech application that allows you to convert text to speech free download"
-        />
-
-        <meta
-          name="keywords"
-          content="TTS, Text to Speech, free download,tts,Natural Language Processing, Speech Synthesis,Voiceover,Accessibility,Multilingual,Customizable Speech Rate/Pitch"
-        />
-
-        <meta name="author" content="Netline by imani brown" />
+        
       </Helmet>
       <form className={style.form} onSubmit={handleSubmit}>
         <div className={style.wrapper}>
